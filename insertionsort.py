@@ -7,6 +7,6 @@ def insertionSort(mylist):
             j = j - 1
         mylist[j+1]=anchor
         
-mylist=[21,38,1,46,37,95,47,76]
+mylist=[100,38,1,46,37,95,47,76]
 insertionSort(mylist)
 print(mylist)
